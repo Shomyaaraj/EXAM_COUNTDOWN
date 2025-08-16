@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML + CSS + JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+   <h2>
+    <i class="fa-solid fa-pen-to-square"></i>
+   Exam countdown and study planner</h2>
+  
+   <div class="container">
+    <label> Exam Name</label>
+    <br>
+    <input type="text" name="examinput" id="examinput" placeholder="enter exam name">
+    <br>
+
+    <label >Exam Date</label>
+    <br>
+    <input type="date" placeholder="enter exam date">
+    <br>
+
+    <label> Study Topics (comma separated)</label>
+    <br>
+    <input type="text" name="study" id="study"
+    placeholder="enter topics you have to study">
+    <br>
+
+    <label>Sub-Topics (Comma, separated)</label>
+    <br>
+    <input type="text" name="sub" id="sub" placeholder="enter Sub-Topics ">
+    <br>
+
+    <label >Study time Per topic</label>
+    <br>
+    <div class="time">
+    <input type="text" name="time" id="time" placeholder="hours">
+    <input type="text" name="time" id="time"
+    placeholder="minutes">
+  </div>
+    <br>
+
+    <label > Study time per sub Topic</label>
+    <br>
+    <div class="time">
+    <input type="text" name="subtime" id="subtime" placeholder="hours">
+    <input type="text" name="subtime" id="subtime" placeholder="minutes">
+  </div>
+    <br>
+   </div>
+   <div class="btn">
+   <button id="add">ADD EXAM</button>
+   <br>
+   <button id="preview">Show previous plans</button>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html> 
